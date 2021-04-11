@@ -1,0 +1,5 @@
+
+z	java:S135	"YReduce the total number of break and continue statements in this loop to use at most one.(‡ë÷±ÿÿÿÿÿ8òÅúÙ‹/
+m
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(´‰ê ùÿÿÿÿ8‹¡ÙÙ‹/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—Œ¿øÿÿÿÿ

@@ -1,0 +1,6 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–ú½µ
+‡
+java:S4165	"jRemove this useless assignment; "arrayForTask" already holds the assigned value along all execution paths.(óþ¶é8Œ§Ñê‹/
+:
+java:S2119"Save and re-use this "Random".(¼ÝÅf8×á¿ê‹/
