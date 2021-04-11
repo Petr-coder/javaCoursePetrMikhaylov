@@ -1,167 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e8e7fc-f7bc-47f3-bddf-6e2a868bab28" name="Default Changelist" comment="added days 1,2&#10;fixed day 5: classes &quot;Car&quot; and &quot;Motorcycle&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_lkoskela_beaninject_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e751e1421eb1e57e64ebcd5d2c904c215f5ec26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54d2a144a53203c66c17169220862c39b86546d9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70aa81a16f1f95b88dd8826a76adf71836ce323c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a1fcf7faaa2070c57d42ccea34c13909b3c5694" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/943a576627308abea51347010341fff6ef5fca0f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b827431dc799d77d4151249833e945755d5a8b0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baaba3f536ca545c6bcb7c2a034077576eaaa0ff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e69d26cff67009382c9bc7d4cefff06c2d0edb52" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaafdb9478c3ab3940990103c09354ce51bca2ed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed4a147ce05558ac405f879e89e970cc41b410ca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd435752b378d6bf924e1c1cb97b9ce89a630322" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaMarathon2021.iml" afterDir="false" />
+    <list default="true" id="33e8e7fc-f7bc-47f3-bddf-6e2a868bab28" name="Default Changelist" comment="add days 1 - 4">
       <change afterPath="$PROJECT_DIR$/src/main/java/day5/Car.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/day5/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day1/Day1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day11/Day11CourierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day11/Day11PickerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day12/task3/Day12Task3MusicBandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day12/task4/Day12Task4MusicBandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day12/task5/Day12Task5MusicBandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day13/Day13MessageDatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day13/Day13UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day14/Day14Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day14/Day14Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day14/Day14Task3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day16/Day16Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day16/Day16Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day17/Day17Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day17/Day17Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day18/Day18Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day18/Day18Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day2/Day2Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day2/Day2Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day2/Day2Task3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day2/Day2Task4Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day3/Day3Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day3/Day3Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day3/Day3Task3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day6/Day6AirplaneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day6/Day6CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day6/Day6MotorbikeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day7/Day7AirplaneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day7/Day7PlayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day8/Day8AirplaneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day9/Task1/Day9HumanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day9/Task1/Day9StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day9/Task1/Day9TeacherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day9/Task2/Day9TestFiguresTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/D14T1_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/D14T1_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/D14T2_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/D14T2_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/D16T1_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/D16T2_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/D16T2_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day0/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day1/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day1/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day1/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day1/Task4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day1/Task5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day1/Task6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day11/task1/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day11/task2/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day12/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day12/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day12/task3/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day12/task4/Task4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day12/task5/Task5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day13/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day14/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day14/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day14/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day15/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day16/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day16/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day17/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day17/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day18/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day18/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day18/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day19/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day19/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day19/task3/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day19/task3/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day2/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day2/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day2/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day2/Task4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day3/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day3/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day3/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day4/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day4/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day4/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day4/Task4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day5/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day5/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day6/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day6/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day6/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day7/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day7/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day8/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day8/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day9/Task1/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/day9/Task2/TestFigures.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dushi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/numbers19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/shoes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/taxi_cars.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/D14T1_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/D14T1_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/D14T2_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/D14T2_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/D16T1_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/D16T2_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/D16T2_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Tests/AbstractTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Tests/day3/Day3Task1Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Tests/day3/Day3Task2Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Tests/day3/Day3Task3Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day3/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day3/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day3/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day3/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day3/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day4/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day4/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day4/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day4/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day4/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day4/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day4/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day4/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e751e1421eb1e57e64ebcd5d2c904c215f5ec26" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e751e1421eb1e57e64ebcd5d2c904c215f5ec26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54d2a144a53203c66c17169220862c39b86546d9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54d2a144a53203c66c17169220862c39b86546d9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/943a576627308abea51347010341fff6ef5fca0f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/943a576627308abea51347010341fff6ef5fca0f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b827431dc799d77d4151249833e945755d5a8b0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b827431dc799d77d4151249833e945755d5a8b0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baaba3f536ca545c6bcb7c2a034077576eaaa0ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baaba3f536ca545c6bcb7c2a034077576eaaa0ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e69d26cff67009382c9bc7d4cefff06c2d0edb52" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e69d26cff67009382c9bc7d4cefff06c2d0edb52" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd435752b378d6bf924e1c1cb97b9ce89a630322" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd435752b378d6bf924e1c1cb97b9ce89a630322" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/day5/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day5/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/day5/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day5/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day5/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day5/Task1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day5/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day5/Task2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="68ded5b2-42cf-4982-a392-d2df5c2a1d49" />
+  </component>
   <component name="ProjectId" id="1qy9v0iRmgWvAnvaSBJJrdwiZPw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -189,13 +47,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.ssh/id_rsa.pub" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3343949" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Task4">
+  <component name="RunManager" selected="Application.Task2">
     <configuration name="Task1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day5.Task1" />
       <module name="JavaMarathon2021" />
@@ -263,9 +121,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1 (1)" />
+        <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task3 (1)" />
         <item itemvalue="Application.Task2 (1)" />
       </list>
@@ -284,7 +142,9 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Петр\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PRIVATE_KEY" />
+    <option name="sshPrivateKeyPath" value="C:\Users\Петр\.ssh\id_rsa.pub" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -294,72 +154,85 @@
       <option name="presentableId" value="Default" />
       <updated>1618041190041</updated>
     </task>
+    <task id="LOCAL-00001" summary="add days 1 - 4">
+      <created>1618144171068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618144171068</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added days 1,2&#10;fixed day 5: classes &quot;Car&quot; and &quot;Motorcycle&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added days 1,2&#10;fixed day 5: classes &quot;Car&quot; and &quot;Motorcycle&quot;" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="add days 1 - 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add days 1 - 4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1618250528988">
+    <state x="233" y="0" key="#Menus_and_Toolbars" timestamp="1618158465643">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1618250528988" />
-    <state x="115" y="3" width="1038" height="601" key="DiffContextDialog" timestamp="1618249590992">
+    <state x="233" y="0" key="#Menus_and_Toolbars/0.0.1280.680@0.0.1280.680" timestamp="1618158465643" />
+    <state x="446" y="26" key="#com.intellij.ide.util.MemberChooser" timestamp="1618160230832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="115" y="3" width="1038" height="601" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1618249590992" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1618142840262">
+    <state x="446" y="26" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1618160230832" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1618162586984">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618142840262" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1618250551688">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1618162586984" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1618157292288">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1618250551688" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1618250551688">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618157292288" />
+    <state x="496" y="235" key="Github.ShareDialog" timestamp="1618147081027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1618250551688" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1618250551688">
+    <state x="496" y="235" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1618147081027" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1618162547515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1618250551688" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1618250551688">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1618162547515" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1618162547515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618250551688" />
-    <state x="354" y="58" key="MultipleFileMergeDialog" timestamp="1618249696600">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1618162547515" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1618162547515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="354" y="58" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1618249696600" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1618142850365">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1618162547515" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1618162547515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1618142850365" />
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1618249753562">
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618162547515" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1618157050869">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1618249753562" />
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1618250203264">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1618157050869" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1618162573388">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1618250203264" />
-    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618249744298">
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1618162573388" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1618157144358">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1618249744298" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/day5/Task2.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1618157144358" />
+    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618154873688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1618154873688" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 
-~
-java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "sizeOfArray".(Ö¿Ã 8†š×ß‹/
-8
-java:S2119"Save and re-use this "Random".(¼ÝÅf8Žþ¢é‹/
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–ú½µ
+:
+java:S2119 "Save and re-use this "Random".(¼ÝÅf8Žþ¢é‹/
+€
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "sizeOfArray".(Ö¿Ã 8†š×ß‹/
