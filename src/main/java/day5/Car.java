@@ -1,9 +1,9 @@
 package day5;
 
 class Car{
-    int yearOfProduction;
-    String color;
-    String model;
+    private int yearOfProduction;
+    private String color;
+    private String model;
 
     public int getYearOfProduction() {
         return yearOfProduction;

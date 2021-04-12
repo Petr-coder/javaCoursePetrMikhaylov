@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e8e7fc-f7bc-47f3-bddf-6e2a868bab28" name="Default Changelist" comment="add days 1 - 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/Motorcycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e751e1421eb1e57e64ebcd5d2c904c215f5ec26" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e751e1421eb1e57e64ebcd5d2c904c215f5ec26" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54d2a144a53203c66c17169220862c39b86546d9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54d2a144a53203c66c17169220862c39b86546d9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/943a576627308abea51347010341fff6ef5fca0f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/943a576627308abea51347010341fff6ef5fca0f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b827431dc799d77d4151249833e945755d5a8b0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b827431dc799d77d4151249833e945755d5a8b0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baaba3f536ca545c6bcb7c2a034077576eaaa0ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baaba3f536ca545c6bcb7c2a034077576eaaa0ff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e69d26cff67009382c9bc7d4cefff06c2d0edb52" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e69d26cff67009382c9bc7d4cefff06c2d0edb52" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd435752b378d6bf924e1c1cb97b9ce89a630322" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd435752b378d6bf924e1c1cb97b9ce89a630322" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="33e8e7fc-f7bc-47f3-bddf-6e2a868bab28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day5/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day5/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day5/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day5/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day5/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day5/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day5/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day5/Task2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day0/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day0/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day2/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day2/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day2/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day2/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day2/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day2/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day2/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day5/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day5/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day5/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day5/Motorcycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/.ssh/id_rsa.pub" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3343949" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -161,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618144171068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add day 5">
+      <created>1618162608271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618162608271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add days 1 - 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add days 1 - 4" />
+    <MESSAGE value="add day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add day 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Menus_and_Toolbars" timestamp="1618158465643">
@@ -190,10 +197,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="26" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1618160230832" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1618162586984">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1618162607697">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1618162586984" />
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1618162607697" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1618157292288">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -218,14 +225,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618162547515" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1618157050869">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1618168678529">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1618157050869" />
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1618162573388">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1618168678529" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1618162639797">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1618162573388" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1618162639797" />
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1618157144358">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
