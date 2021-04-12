@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e8e7fc-f7bc-47f3-bddf-6e2a868bab28" name="Default Changelist" comment="">
+    <list default="true" id="33e8e7fc-f7bc-47f3-bddf-6e2a868bab28" name="Default Changelist" comment="add days 1 - 4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/day6/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day6/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day6/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day6/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day6/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day0/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day0/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Task6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day2/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day2/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day2/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day2/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day2/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day2/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day2/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day5/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day5/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day5/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day5/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day6/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day6/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day6/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day6/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day6/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day6/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/day6/Day6AirplaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/day6/Day6AirplaneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/day6/Day6CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/day6/Day6CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day6/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day6/Task1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day6/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day6/Task2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day6/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day6/Task3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +46,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.ssh/id_rsa.pub" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/day6" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3343949" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Task2">
-    <configuration name="Task1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day5.Task1" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="day6" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Петр\IdeaProjects\JavaMarathon2021\src\main\java\day6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Task3">
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day6.Task1" />
       <module name="JavaMarathon2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day5.*" />
+          <option name="PATTERN" value="day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,11 +75,11 @@
       </method>
     </configuration>
     <configuration name="Task2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day4.Task2" />
+      <option name="MAIN_CLASS_NAME" value="day6.Task2" />
       <module name="JavaMarathon2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day4.*" />
+          <option name="PATTERN" value="day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day5.Task2" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day6.Task3" />
       <module name="JavaMarathon2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day5.*" />
+          <option name="PATTERN" value="day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,39 +100,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day4.Task3" />
+    <configuration name="Day6AirplaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaMarathon2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day4.*" />
+          <option name="PATTERN" value="day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Tests.day6" />
+      <option name="MAIN_CLASS_NAME" value="Tests.day6.Day6AirplaneTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day4.Task4" />
+    <configuration name="Day6CarTest.yearDifference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaMarathon2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day4.*" />
+          <option name="PATTERN" value="day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Tests.day6" />
+      <option name="MAIN_CLASS_NAME" value="Tests.day6.Day6CarTest" />
+      <option name="METHOD_NAME" value="yearDifference" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1 (1)" />
-        <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task3 (1)" />
+        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2 (1)" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="JUnit.Day6AirplaneTest" />
+        <item itemvalue="JUnit.Day6CarTest.yearDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -193,14 +206,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Menus_and_Toolbars/0.0.1280.680@0.0.1280.680" timestamp="1618158465643" />
-    <state x="446" y="26" key="#com.intellij.ide.util.MemberChooser" timestamp="1618160230832">
+    <state x="446" y="26" key="#com.intellij.ide.util.MemberChooser" timestamp="1618254283651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="26" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1618160230832" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1618162607697">
+    <state x="446" y="26" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1618254283651" />
+    <state x="438" y="201" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1618254810451">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1618162607697" />
+    <state x="438" y="201" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1618254810451" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1618254906690">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1618254906690" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1618157292288">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -209,22 +226,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="496" y="235" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1618147081027" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1618162547515">
+    <state width="1222" height="166" key="GridCell.Tab.0.bottom" timestamp="1618254951627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1618162547515" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1618162547515">
+    <state width="1222" height="166" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1618254951627" />
+    <state width="1222" height="166" key="GridCell.Tab.0.center" timestamp="1618254951627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1618162547515" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1618162547515">
+    <state width="1222" height="166" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1618254951627" />
+    <state width="1222" height="166" key="GridCell.Tab.0.left" timestamp="1618254951627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1618162547515" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1618162547515">
+    <state width="1222" height="166" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1618254951627" />
+    <state width="1222" height="166" key="GridCell.Tab.0.right" timestamp="1618254951627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618162547515" />
+    <state width="1222" height="166" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618254951627" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1618168678529">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -241,5 +258,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1618154873688" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1618252066275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1618252066275" />
   </component>
 </project>
