@@ -33,7 +33,7 @@ public class Teacher {
         System.out.println("Преподаватель " + this.name + " оценил студента с именем " + student.getName() + " по предмету " + this.subject + " на оценку " + gradeForStudent);
     }
 
-    int generateGradeForStudent() {
+    private int generateGradeForStudent() {
         int min = 2;
         int max = 5;
         int diff = max - min;
@@ -41,7 +41,7 @@ public class Teacher {
         return random.nextInt(diff + 1) + min;
     }
 
-    String transformGradeFromNumberToString(int grade) {
+    private String transformGradeFromNumberToString(int grade) {
         String gradeForStudent;
         if (grade == 2) {
             gradeForStudent = "неудовлетворительно";
