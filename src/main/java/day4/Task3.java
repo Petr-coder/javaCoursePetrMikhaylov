@@ -13,8 +13,8 @@ public class Task3 {
     }
 
     static int[][] fillArray(int[][] array) {
-        for (int i = 0; i < 12; i++) {
-            for (int j = 0; j < 8; j++) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
                 int min = 0;
                 int max = 5;
                 int diff = max - min;
@@ -29,25 +29,25 @@ public class Task3 {
 
         int[] arraySumLine = new int[12];
 
-        for (int i = 0; i < 12; i++) {
-            for (int j = 0; j < 8; j++) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
                 arraySumLine[i] = arraySumLine[i] + array[i][j];
             }
         }
-        System.out.println(findIndexWithMaximumAmount(arraySumLine));
+        System.out.println(findIndexOfLineWithMaxAmount(arraySumLine));
     }
 
-    static int findIndexWithMaximumAmount(int[] array) {
-        int indexOfLineWithMaximumSumOfLine = 0;
+    static int findIndexOfLineWithMaxAmount(int[] array) {
+        int indexOfLine = 0;
         int sumOfLine = 0;
 
         for (int j = 0; j < array.length; j++) {
             if (array[j] >= sumOfLine) {
-                indexOfLineWithMaximumSumOfLine = j;
+                indexOfLine = j;
                 sumOfLine = array[j];
             }
         }
-        return indexOfLineWithMaximumSumOfLine;
+        return indexOfLine;
     }
 }
 

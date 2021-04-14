@@ -11,11 +11,9 @@ public class Task2 {
         Player player5 = new Player(generateStaminaForPlayer());
         Player player6 = new Player(generateStaminaForPlayer());
 
-        for (int i = player1.getStamina(); i > Player.MIN_STAMINA-1; i--) {
+        for (int i = player1.getStamina(); i > Player.MIN_STAMINA - 1; i--) {
             if (player1.getStamina() > 0) {
                 player1.run();
-            } else {
-                Player.countPlayers--;
             }
         }
 
