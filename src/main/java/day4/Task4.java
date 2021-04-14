@@ -7,8 +7,8 @@ public class Task4 {
     public static void main(String[] args) {
         int[] array = createAndFillArrayWithRandomNumbers(100);
         System.out.println(Arrays.toString(array));
-        System.out.println(findMaximumAmongSumsOfThreeNeighboringElements(array));
-        System.out.println(findFirstIndexOfThreeNeighboringElementsWithMaximumSize(array));
+        System.out.println(findMaximumAmongSumsOfNeighboringElements(array, 3));
+        System.out.println(findFirstIndexOfNeighboringElementsWithMaximumSize(array, 3));
     }
 
     static int[] createAndFillArrayWithRandomNumbers(int input) {
@@ -23,26 +23,41 @@ public class Task4 {
         return array;
     }
 
-    static int findMaximumAmongSumsOfThreeNeighboringElements(int[] array) {
-        int sumOfThreeNeighboringElements = array[0] + array[1] + array[2];
+    static int findMaximumAmongSumsOfNeighboringElements(int[] array, int amountOfElements) {
+        int sum = 0;
+        int maximumSum = 0;
 
-        for (int i = 0; i < array.length - 2; i++) {
-            if ((array[i] + array[i + 1] + array[i + 2]) > sumOfThreeNeighboringElements) {
-                sumOfThreeNeighboringElements = array[i] + array[i + 1] + array[i + 2];
+        for (int i = 0; i < array.length - (amountOfElements - 1); i++) {
+
+            for (int j = i; j < i + amountOfElements ; j++) {
+                sum += array[j];
             }
+
+            if (sum > maximumSum) {
+                maximumSum = sum;
+            }
+            sum = 0;
         }
-        return sumOfThreeNeighboringElements;
+        return maximumSum;
     }
 
-    static int findFirstIndexOfThreeNeighboringElementsWithMaximumSize(int[] array) {
-        int sumOfThreeNeighboringElements = array[0] + array[1] + array[2];
-        int firstIndexOfThreeNeighboringElementsWithMaximumSize = 0;
-        for (int i = 0; i < array.length - 2; i++) {
-            if ((array[i] + array[i + 1] + array[i + 2]) > sumOfThreeNeighboringElements) {
-                sumOfThreeNeighboringElements = array[i] + array[i + 1] + array[i + 2];
-                firstIndexOfThreeNeighboringElementsWithMaximumSize = i;
+    static int findFirstIndexOfNeighboringElementsWithMaximumSize(int[] array, int amountOfElements) {
+        int sum = 0;
+        int maximimSum = 0;
+        int firstIndex = 0;
+
+        for (int i = 0; i < array.length - (amountOfElements - 1); i++) {
+
+            for (int j = i; j < i + amountOfElements; j++) {
+                sum += array[j];
             }
+
+            if (sum > maximimSum) {
+                maximimSum = sum;
+                firstIndex = i;
+            }
+            sum = 0;
         }
-        return firstIndexOfThreeNeighboringElementsWithMaximumSize;
+        return firstIndex;
     }
 }

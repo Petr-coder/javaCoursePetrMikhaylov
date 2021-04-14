@@ -6,7 +6,7 @@ public class Player {
     static final int MAX_STAMINA = 100;
     static final int MIN_STAMINA = 0;
 
-    static int countPlayers = 0;
+    private static int countPlayers = 0;
 
     public int getStamina() {
         return stamina;
@@ -27,11 +27,9 @@ public class Player {
     public void run() {
         if (this.stamina > 1) {
             this.stamina -= 1;
-        } else if(this.stamina == 1){
+        } else if (this.stamina == 1) {
             this.stamina = MIN_STAMINA;
             countPlayers--;
-        } else{
-            this.stamina = MIN_STAMINA;
         }
     }
 
