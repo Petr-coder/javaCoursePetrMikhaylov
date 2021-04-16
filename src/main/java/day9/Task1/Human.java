@@ -11,7 +11,7 @@ public class Human {
         this.name = name;
     }
 
-    public void printInfo(){
+    public void printInfo() {
         System.out.println("Этот человек с именем " + this.name);
     }
 }
