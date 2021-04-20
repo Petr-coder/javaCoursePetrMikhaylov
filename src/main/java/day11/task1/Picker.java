@@ -1,9 +1,10 @@
 package day11.task1;
 
 public class Picker implements Worker {
-    int salary;
-    boolean isPayed;
-    Warehouse warehouse;
+    private int salary;
+    private boolean isPayed;
+    private Warehouse warehouse;
+
     final int PAYMENT_PER_ORDER = 80;
     final int ACHIEVEMENT_BONUS = 70_000;
 
@@ -29,7 +30,7 @@ public class Picker implements Worker {
 
     @Override
     public void doWork() {
-        warehouse.countPickedOrders++;
+        warehouse.getCountPickedOrders();
         salary += PAYMENT_PER_ORDER;
     }
 

@@ -33,11 +33,12 @@ public class Paladin extends Hero implements Healer, PhysAttack {
 
     @Override
     public void physicalAttack(Hero hero) {
-        if (hero.health > 0) {
+        double damage = physAtt * (100 - hero.physDef) / 100;
+
+        if (hero.health - damage < 0) {
+            hero.health = MIN_HEALTH;
+        } else {
             hero.health = hero.health - (physAtt * (100 - hero.physDef) / 100);
-            if (hero.health < MIN_HEALTH) {
-                hero.health = MIN_HEALTH;
-            }
         }
     }
 }

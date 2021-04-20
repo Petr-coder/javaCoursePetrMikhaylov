@@ -1,8 +1,10 @@
 package day11.task1;
 
 public class Warehouse {
+
     int countPickedOrders;
     int countDeliveredOrders;
+
     static final int QUANTITY_FOR_BONUS = 10000;
 
     public int getCountPickedOrders() {
