@@ -8,27 +8,27 @@ public class Task2 {
         Shaman shaman = new Shaman();
 
         warrior.physicalAttack(paladin);
-        System.out.println(paladin.health);
+        System.out.println(paladin.toString());
         paladin.physicalAttack(magician);
-        System.out.println(magician.health);
+        System.out.println(magician.toString());
         shaman.healTeammate(magician);
-        System.out.println(magician.health);
+        System.out.println(magician.toString());
         magician.magicalAttack(paladin);
-        System.out.println(paladin.health);
+        System.out.println(paladin.toString());
         shaman.physicalAttack(warrior);
-        System.out.println(warrior.health);
+        System.out.println(warrior.toString());
         paladin.healHimself();
-        System.out.println(paladin.health);
+        System.out.println(paladin.toString());
         warrior.physicalAttack(magician);
-        System.out.println(magician.health);
+        System.out.println(magician.toString());
         warrior.physicalAttack(magician);
-        System.out.println(magician.health);
+        System.out.println(magician.toString());
         warrior.physicalAttack(magician);
-        System.out.println(magician.health);
+        System.out.println(magician.toString());
         warrior.physicalAttack(magician);
-        System.out.println(magician.health);
+        System.out.println(magician.toString());
         warrior.physicalAttack(magician);
-        System.out.println(magician.health);
+        System.out.println(magician.toString());
 
     }
 }

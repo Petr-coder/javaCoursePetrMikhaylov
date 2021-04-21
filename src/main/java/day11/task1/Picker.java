@@ -1,12 +1,14 @@
 package day11.task1;
 
+import static day11.task1.Warehouse.getQuantityForBonus;
+
 public class Picker implements Worker {
     private int salary;
     private boolean isPayed;
     private Warehouse warehouse;
 
-    final int PAYMENT_PER_ORDER = 80;
-    final int ACHIEVEMENT_BONUS = 70_000;
+    private static final int PAYMENT_PER_ORDER = 80;
+    private static final int ACHIEVEMENT_BONUS = 70_000;
 
     public int getSalary() {
         return salary;
@@ -30,15 +32,15 @@ public class Picker implements Worker {
 
     @Override
     public void doWork() {
-        warehouse.getCountPickedOrders();
         salary += PAYMENT_PER_ORDER;
+        warehouse.incrementCountPickedOrders();
     }
 
     @Override
     public void bonus() {
         if (isPayed() == true) {
             System.out.println("Бонус уже был выплачен");
-        } else if (warehouse.countPickedOrders >= warehouse.QUANTITY_FOR_BONUS) {
+        } else if (warehouse.getCountPickedOrders() >= getQuantityForBonus()) {
             salary += ACHIEVEMENT_BONUS;
             isPayed = true;
         } else {

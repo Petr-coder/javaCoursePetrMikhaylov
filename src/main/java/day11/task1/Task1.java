@@ -1,6 +1,6 @@
 package day11.task1;
 
-import static day11.task1.Warehouse.QUANTITY_FOR_BONUS;
+import static day11.task1.Warehouse.getQuantityForBonus;
 
 public class Task1 {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Task1 {
     }
 
     static void businessProcess(Worker worker) {
-        for (int i = 0; i < QUANTITY_FOR_BONUS; i++) {
+        for (int i = 0; i < getQuantityForBonus(); i++) {
             worker.doWork();
         }
         worker.bonus();
