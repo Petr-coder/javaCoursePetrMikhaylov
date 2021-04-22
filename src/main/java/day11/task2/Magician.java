@@ -16,7 +16,7 @@ public class Magician extends Hero implements MagicAttack, PhysAttack {
         if (hero.health - damage < 0) {
             hero.health = MIN_HEALTH;
         } else {
-            hero.health = hero.health - (magicAtt * (100 - hero.magicDef) / 100);
+            hero.health = hero.health - damage;
         }
     }
 

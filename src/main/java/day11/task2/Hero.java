@@ -20,7 +20,7 @@ public abstract class Hero implements PhysAttack {
         if (hero.health - damage < 0) {
             hero.health = MIN_HEALTH;
         } else {
-            hero.health = hero.health - (physAtt * (MAX_HEALTH - hero.physDef) / 100);
+            hero.health = hero.health - damage;
         }
     }
 }
