@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static day12.task3.MusicBand.getBorderlineYear;
+import static day12.task3.MusicBand.BORDERLINE_YEAR;
 
 public class Task3 {
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class Task3 {
         List<MusicBand> result = new ArrayList<>();
 
         for (int i = 0; i < bands.size(); i++) {
-            if (bands.get(i).getYear() > getBorderlineYear()) {
+            if (bands.get(i).getYear() > BORDERLINE_YEAR) {
                 result.add(bands.get(i));
             }
         }

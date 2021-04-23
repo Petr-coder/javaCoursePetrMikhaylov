@@ -8,16 +8,12 @@ public class MusicBand {
     private int year;
     private List<MusicArtist> members;
 
-    private static final int BORDERLINE_YEAR = 2000;
+    static final int BORDERLINE_YEAR = 2000;
 
     public MusicBand(String name, int year, List<MusicArtist> members) {
         this.name = name;
         this.year = year;
         this.members = members;
-    }
-
-    public static int getBorderlineYear() {
-        return BORDERLINE_YEAR;
     }
 
     public String getName() {
@@ -40,10 +36,8 @@ public class MusicBand {
     }
 
     public static void transferMembers(MusicBand band1, MusicBand band2) {
-        for (int i = band1.getMembers().size() - 1; i >= 0; i--) {
-            band2.getMembers().add(band1.getMembers().get(i));
-            band1.getMembers().remove(i);
-        }
+        band2.getMembers().addAll(0, band1.getMembers());
+        band1.getMembers().clear();
     }
 
     @Override

@@ -5,11 +5,7 @@ public class MusicBand {
     private String name;
     private int year;
 
-    private static final int BORDERLINE_YEAR = 2000;
-
-    public static int getBorderlineYear() {
-        return BORDERLINE_YEAR;
-    }
+    static final int BORDERLINE_YEAR = 2000;
 
     public String getName() {
         return name;

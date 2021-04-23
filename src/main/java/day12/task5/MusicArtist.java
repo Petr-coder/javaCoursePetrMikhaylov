@@ -2,7 +2,7 @@ package day12.task5;
 
 public class MusicArtist {
     private String firstAndLastName;
-    int age;
+    private int age;
 
     public MusicArtist(String firstAndLastName, int age) {
         this.firstAndLastName = firstAndLastName;
