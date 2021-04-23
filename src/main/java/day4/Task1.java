@@ -19,8 +19,7 @@ public class Task1 {
 
     static int enterSizeOfArray() {
         Scanner inputSizeOfArray = new Scanner(System.in);
-        int sizeOfArray = inputSizeOfArray.nextInt();
-        return sizeOfArray;
+        return inputSizeOfArray.nextInt();
     }
 
     static int[] createAndFillArrayWithRandomNumbers(int input) {
@@ -42,8 +41,8 @@ public class Task1 {
     static void printQuantityOfNumbersMoreThenEight(int[] array) {
         int quantityOfNumbersMoreThenEight = 0;
 
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > 8)
+        for (int value : array) {
+            if (value > 8)
                 quantityOfNumbersMoreThenEight++;
         }
         System.out.println("Количество чисел больше 8: " + quantityOfNumbersMoreThenEight);
@@ -51,8 +50,8 @@ public class Task1 {
 
     static void printQuantityOfNumbersEqualToOne(int[] array) {
         int quantityOfNumbersEqualToOne = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == 1)
+        for (int value : array) {
+            if (value == 1)
                 quantityOfNumbersEqualToOne++;
         }
         System.out.println("Количество чисел равных 1: " + quantityOfNumbersEqualToOne);
@@ -60,8 +59,8 @@ public class Task1 {
 
     static void printQuantityOfEvenNumbers(int[] array) {
         int quantityOfEvenNumbers = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 == 0 )
+        for (int value : array) {
+            if (value % 2 == 0)
                 quantityOfEvenNumbers++;
         }
         System.out.println("Количество четных чисел: " + quantityOfEvenNumbers);
@@ -69,8 +68,8 @@ public class Task1 {
 
     static void printQuantityOfOddNumbers(int[] array) {
         int quantityOfOddNumbers = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 != 0)
+        for (int value : array) {
+            if (value % 2 != 0)
                 quantityOfOddNumbers++;
         }
         System.out.println("Количество нечетных чисел: " + quantityOfOddNumbers);
@@ -78,8 +77,8 @@ public class Task1 {
 
     static void printSumOfAllElementsOfArray(int[] array) {
         int sumOfAllElementsOfArray = 0;
-        for (int i = 0; i < array.length; i++) {
-            sumOfAllElementsOfArray = sumOfAllElementsOfArray + array[i];
+        for (int value : array) {
+            sumOfAllElementsOfArray = sumOfAllElementsOfArray + value;
         }
         System.out.println("Сумма всех элементов массива: " + sumOfAllElementsOfArray);
     }

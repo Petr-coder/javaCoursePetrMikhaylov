@@ -14,7 +14,7 @@ class Motorcycle {
         return Math.abs(yearDifference);
     }
 
-    public Motorcycle(int yearOfProduction, String color, String model) {
+     Motorcycle(int yearOfProduction, String color, String model) {
         this.yearOfProduction = yearOfProduction;
         this.color = color;
         this.model = model;

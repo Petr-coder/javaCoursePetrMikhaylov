@@ -22,16 +22,16 @@ public class Task1 {
     static String generateStringInSpecifiedRangeWithStringBuilder(int initial, int end) {
         StringBuilder sb = new StringBuilder();
         for (int i = initial; i < end + 1; i++) {
-            sb.append(i + " ");
+            sb.append(i).append(" ");
         }
         return sb.toString();
     }
 
     static String generateStringInSpecifiedRangeWithString(int initial, int end) {
-        String string = new String();
+        StringBuilder string = new StringBuilder(new String());
         for (int i = initial; i < end + 1; i++) {
-            string = string + " " + i;
+            string.append(" ").append(i);
         }
-        return string;
+        return string.toString();
     }
 }

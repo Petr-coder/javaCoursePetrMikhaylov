@@ -37,7 +37,7 @@ public class Courier implements Worker {
 
     @Override
     public void bonus() {
-        if (isPayed() == true) {
+        if (isPayed()) {
             System.out.println("Бонус уже был выплачен");
         } else if (warehouse.getCountDeliveredOrders() >= getQuantityForBonus()) {
             salary += ACHIEVEMENT_BONUS;

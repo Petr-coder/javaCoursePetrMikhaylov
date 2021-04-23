@@ -147,28 +147,6 @@ N
 src/main/java/day19/Task1.java,b\e\be874478cb7779defe6aaed698839c5942046a96
 N
 src/main/java/day19/Task2.java,7\c\7c13ad0e7ae139cb09f0690e49736a3206f118ad
-L
-src/main/resources/dushi.txt,f\d\fd26795b87fb995d737f9267d9d10b78420d9477
-P
- src/main/resources/numbers19.txt,5\c\5c7aff49663b24ce277060384fecffe0ae1c69d0
-L
-src/main/resources/shoes.csv,a\b\ab02b2c2e2120b3b5ed852982a14afe078fa8f2b
-P
- src/main/resources/taxi_cars.txt,f\c\fc4b8dc4cc6a7768990618bdfcd0dcb636a1d2b0
-N
-src/test/resources/D14T1_1.txt,a\1\a18849bfc4bb1642f6ed97ca1380eb3478fc8e90
-N
-src/test/resources/D14T1_2.txt,6\3\6399c322d2e87eaf233427af48744c81a3081b0c
-N
-src/test/resources/D14T2_1.txt,e\9\e915b8a6fdd5d8e17bef44c68536d31710cc5718
-N
-src/test/resources/D14T2_2.txt,e\f\ef33ca2f1e32c5afbeabd2c425a6779ec7524770
-N
-src/test/resources/D16T1_1.txt,a\d\ad979aed51f404f8cac10b37792dcc5b253602b5
-N
-src/test/resources/D16T2_1.txt,1\1\11d7fcf7d23b24fb3b25ddc4b337315cd7f216f0
-N
-src/test/resources/D16T2_2.txt,4\4\448304bbc093626f65fc88eb531c8004e0bfb886
 V
 &src/test/java/Tests/day1/Day1Test.java,6\5\65a3a3f96da864cc4ac9743c488d190dc1f5c0da
 [

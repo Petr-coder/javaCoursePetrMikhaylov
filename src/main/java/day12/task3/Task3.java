@@ -29,17 +29,17 @@ public class Task3 {
     public static List<MusicBand> groupsAfter2000(List<MusicBand> bands) {
         List<MusicBand> result = new ArrayList<>();
 
-        for (int i = 0; i < bands.size(); i++) {
-            if (bands.get(i).getYear() > BORDERLINE_YEAR) {
-                result.add(bands.get(i));
+        for (MusicBand band : bands) {
+            if (band.getYear() > BORDERLINE_YEAR) {
+                result.add(band);
             }
         }
         return result;
     }
 
     private static void printArrayList(List<MusicBand> list) {
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i).toString());
+        for (MusicBand musicBand : list) {
+            System.out.println(musicBand.toString());
         }
     }
 }

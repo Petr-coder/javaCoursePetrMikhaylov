@@ -19,7 +19,6 @@ public class Task3 {
                     break;
                 default:
                     System.out.println(dividend / divisor);
-                    continue;
             }
         }
     }
