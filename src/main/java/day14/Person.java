@@ -1,8 +1,8 @@
 package day14;
 
 public class Person {
-    String name;
-    int year;
+    private String name;
+    private int year;
 
     public String getName() {
         return name;
