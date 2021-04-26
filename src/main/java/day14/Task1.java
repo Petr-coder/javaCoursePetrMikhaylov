@@ -7,15 +7,17 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         File file = new File("test2");
-        printSumDigits(file);
+        int sunOfNumbers = printSumDigits(file);
+        System.out.println(sunOfNumbers);
     }
 
-    public static void printSumDigits(File file) {
+    public static int printSumDigits(File file) {
+        int result = 0;
         try {
             Scanner scanner = new Scanner(file);
             String line = scanner.nextLine();
             String[] digitsString = line.split(" ");
-            int result = 0;
+
 
             if (digitsString.length != 10) {
                 throw new IncorrectInputFileException();
@@ -25,11 +27,12 @@ public class Task1 {
                 result += Integer.parseInt(digitString);
             }
             scanner.close();
-            System.out.println(result);
-        } catch (FileNotFoundException e) {
+           } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");
         } catch (IncorrectInputFileException e) {
             System.out.println("Некорректный входной файл");
         }
+        return result;
     }
 }
+

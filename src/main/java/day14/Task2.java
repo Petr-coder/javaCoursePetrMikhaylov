@@ -34,27 +34,26 @@ public class Task2 {
 
     static String changeFromFileToString(File file) {
         Scanner scanner = null;
+        String line = "";
         try {
             scanner = new Scanner(file);
+
+            while (scanner.hasNextLine()) {
+                line += scanner.nextLine() + " ";
+            }
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");
-        }
-        String line = "";
-
-        while (scanner.hasNextLine()) {
-            line += scanner.nextLine() + " ";
         }
         scanner.close();
         return line;
     }
 
-    static boolean checkIfArrayContainsNegativeNumbers(String[] strings) {
-        for (int i = 0; i < strings.length; i++) {
-            if (i % 2 != 0) {
-                if (Integer.parseInt(strings[i]) < 0) {
-                    return true;
-                }
-            }
+    static boolean checkIfArrayContainsNegativeNumbers(String[] strings) { //Принимаем String массив, чередующий имена и возраст
+
+        for (int i = 1; i < strings.length - 1; i = i + 2) {               //перебираем массив, каждое второе значение массива должно быть возрастом
+            if (Integer.parseInt(strings[i]) < 0) {                        //String'овый возраст переводим в int
+                return true;                                               //Если возраст меньше нуля - возвращаем "true"
+            }                                                              //"true" в методе parseFileToStringList вызывает IncorrectInputFileException
         }
         return false;
     }
