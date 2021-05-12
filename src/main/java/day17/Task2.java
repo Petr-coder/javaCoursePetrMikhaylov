@@ -4,18 +4,50 @@ import static day17.ChessPiece.*;
 
 public class Task2 {
     public static void main(String[] args) {
-        ChessPiece[][] array =
-                {{ROOK_BLACK, EMPTY, EMPTY, EMPTY, EMPTY, ROOK_BLACK, KING_BLACK, EMPTY},
-                        {EMPTY, ROOK_WHITE, EMPTY, EMPTY, PAWN_BLACK, PAWN_BLACK, EMPTY, PAWN_BLACK},
-                        {PAWN_BLACK, EMPTY, KNIGHT_BLACK, EMPTY, EMPTY, EMPTY, PAWN_BLACK, EMPTY},
-                        {QUEEN_BLACK, EMPTY, EMPTY, BISHOP_WHITE, EMPTY, EMPTY, EMPTY, EMPTY},
-                        {EMPTY, EMPTY, EMPTY, BISHOP_BLACK, PAWN_WHITE, EMPTY, EMPTY, EMPTY},
-                        {EMPTY, EMPTY, EMPTY, EMPTY, BISHOP_WHITE, PAWN_WHITE, EMPTY, EMPTY},
-                        {PAWN_WHITE, EMPTY, EMPTY, QUEEN_WHITE, EMPTY, PAWN_WHITE, EMPTY, PAWN_WHITE},
-                        {EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, ROOK_WHITE, KING_WHITE, EMPTY}};
 
+        ChessPiece[][] board = createEmptyChessboardOfGivenSize(8, 8);
+        board[0][0] = ROOK_BLACK;
+        board[0][5] = ROOK_BLACK;
+        board[0][6] = KING_BLACK;
 
-        ChessBoard chessBoard = new ChessBoard(array);
+        board[1][1] = ROOK_WHITE;
+        board[1][4] = PAWN_BLACK;
+        board[1][5] = PAWN_BLACK;
+        board[1][7] = PAWN_BLACK;
+
+        board[2][0] = PAWN_BLACK;
+        board[2][2] = KNIGHT_BLACK;
+        board[2][6] = PAWN_BLACK;
+
+        board[3][0] = QUEEN_BLACK;
+        board[3][3] = BISHOP_WHITE;
+
+        board[4][3] = BISHOP_BLACK;
+        board[4][4] = PAWN_WHITE;
+
+        board[5][4] = BISHOP_WHITE;
+        board[5][5] = PAWN_WHITE;
+
+        board[6][0] = PAWN_WHITE;
+        board[6][3] = QUEEN_WHITE;
+        board[6][5] = PAWN_WHITE;
+        board[6][7] = PAWN_WHITE;
+
+        board[7][5] = ROOK_WHITE;
+        board[7][6] = KING_WHITE;
+
+        ChessBoard chessBoard = new ChessBoard(board);
         chessBoard.print();
+    }
+
+    static ChessPiece[][] createEmptyChessboardOfGivenSize(int row, int column) {
+        ChessPiece[][] chessPieces = new ChessPiece[row][column];
+
+        for (int i = 0; i < chessPieces.length; i++) {
+            for (int j = 0; j < chessPieces[i].length; j++) {
+                chessPieces[i][j] = EMPTY;
+            }
+        }
+        return chessPieces;
     }
 }
