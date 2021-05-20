@@ -6,16 +6,12 @@ public class Task2 {
     }
 
     public static int count7(int input) {
-        int count = 0;
-
         if (input == 0)
-            return count;
+            return 0;
+        if (input % 10 == 7) {
+            return 1 + count7(input / 10);
+        } else return count7(input / 10);
 
-        if (input % 10 == 7)
-            count = count + 1;
-
-        input = input / 10;
-        return count = count + count7(input);
 
     }
 }

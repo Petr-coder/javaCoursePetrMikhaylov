@@ -23,16 +23,19 @@ public class Task3 {
 
     static void dfs(Node node) {
 
-        if (node.getLeftOperand() != null) {
-            dfs(node.getLeftOperand());
-        }
+        if (node == null)
+            return;
+
+        dfs(node.getLeftOperand());
         System.out.print(node.getValue() + " ");
-        if (node.getRightOperand() != null) {
-            dfs(node.getRightOperand());
-        }
+        dfs(node.getRightOperand());
     }
 
     static void addNode(int num, Node node) {
+        if (node == null){
+            throw new IllegalArgumentException("Корневой узел не должен быть равен null");
+        }
+
         if (num < node.getValue()) {
             if (node.getLeftOperand() != null) {
                 addNode(num, node.getLeftOperand());
