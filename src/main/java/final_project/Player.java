@@ -2,15 +2,21 @@ package final_project;
 
 import java.util.Scanner;
 
-import static final_project.Battleship_board.checkIfShipCorrectSize;
-import static final_project.Battleship_board.checkIfStringIsNumber;
+import static final_project.Battleship_board.*;
 import static final_project.Game.checkShipsOnBoard;
-import static final_project.Status.PUNCHED_CELL;
-import static final_project.Status.SHIP_CELL;
+import static final_project.Status.*;
+import static final_project.ValidateInput.checkIfShipCorrectSize;
+import static final_project.ValidateInput.checkIfStringIsNumber;
 
 public class Player {
     private Cell[][] board;
     private String name;
+
+    public Cell[][] getGuessBoard() {
+        return guessBoard;
+    }
+
+    private Cell[][] guessBoard = Battleship_board.createEmptyBoardGivenSize(10, 10);
 
 
     public Player(Cell[][] board) {
@@ -20,10 +26,6 @@ public class Player {
 
     public Cell[][] getBoard() {
         return board;
-    }
-
-    public void setBoard(Cell[][] board) {
-        this.board = board;
     }
 
     public String getName() {
@@ -36,15 +38,15 @@ public class Player {
 
     static String[] inputShot() {
         String line;
-        String[] coordinates;
+        String[] coordinates = null;
         Scanner scanner = new Scanner(System.in);
-        boolean flag;
+        boolean flag = false;
 
-        do {
-            flag = true;
+        while (!flag) {
             line = scanner.nextLine();
-            coordinates = line.split("\\D");
+            line = line.trim();
 
+            coordinates = line.split("\\D");
 
             if (!checkIfShipCorrectSize(coordinates, 1)) {
                 System.out.println("Координаты должны быть введены в формате -- > 0,0");
@@ -59,14 +61,12 @@ public class Player {
                         "положительным числом от 0 до 9");
                 System.out.println("Введите координаты снова");
                 flag = false;
+            } else {
+                flag = true;
             }
-
         }
-        while (!flag);
-
         return coordinates;
     }
-
 
     static Coordinates shotCoordinate() {
         Coordinates coordinate = new Coordinates();
@@ -79,27 +79,50 @@ public class Player {
     }
 
 
-    void cellShot(Cell[][] board) {
-        Coordinates coordinate = shotCoordinate();
+    void cellShot(Cell[][] board, Cell[][] guessBoard) {
+        boolean shipAfloat = false;
+        Coordinates guess = shotCoordinate();
+        int x = guess.getX();
+        int y = guess.getY();
+        if ((!guessBoard[x][y].getStatus().equals(SHIP_CELL) && !guessBoard[x][y].getStatus().equals(PUNCHED_CELL))
+                || (!guessBoard[x][y].getStatus().equals(SHIP_CELL) && !guessBoard[x][y].getStatus().equals(DESTROYED))) {
+            guessBoard[x][y].setStatus(GUESS);
+        }
 
-        if (board[coordinate.getX()][coordinate.getY()].getStatus().equals(SHIP_CELL)) {
-            board[coordinate.getX()][coordinate.getY()].setStatus(PUNCHED_CELL);
+        if (board[x][y].getStatus().equals(SHIP_CELL)) {
+            board[x][y].setStatus(PUNCHED_CELL);
+            guessBoard[x][y].setStatus(PUNCHED_CELL);
             System.out.println("Попал");
 
-            for (int i = 0; i < board[coordinate.getX()][coordinate.getY()].getShip().size(); i++) {
-                if (board[coordinate.getX()][coordinate.getY()].getShip().get(i).getX() == coordinate.getX() && board[coordinate.getX()][coordinate.getY()].getShip().get(i).getY() == coordinate.getY()) {
-                    board[coordinate.getX()][coordinate.getY()].getShip().remove(i);
-                }
+            shipAfloat = isShipAfloat(board, x, y);
+
+            if (!shipAfloat) {
+                System.out.println("Потопил корабль");
+                surroundShipWithHalo(board[x][y].getShip(), guessBoard);
+                shipDestroyed(board[x][y].getShip(), guessBoard);
+
             }
 
-            if (board[coordinate.getX()][coordinate.getY()].getShip().size() == 0) {
-                System.out.println("Потопил корабль");
-            }
             if (checkShipsOnBoard(board)) {
-                cellShot(board);
+                System.out.println("Доска ваших ходов");
+                print(guessBoard);
+                cellShot(board, guessBoard);
             }
-        } else if (board[coordinate.getX()][coordinate.getY()].getStatus() != SHIP_CELL) {
+        } else if (board[x][y].getStatus() != SHIP_CELL) {
             System.out.println("Мимо");
         }
+    }
+
+    static boolean isShipAfloat(Cell[][] board, int x, int y) {
+        boolean result = false;
+        for (int i = 0; i < board[x][y].getShip().size(); i++) {
+
+            int xCoordinate = board[x][y].getShip().get(i).getX();
+            int yCoordinate = board[x][y].getShip().get(i).getY();
+
+            if (board[xCoordinate][yCoordinate].getStatus().equals(SHIP_CELL))
+                result = true;
+        }
+        return result;
     }
 }

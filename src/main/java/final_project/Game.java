@@ -1,52 +1,78 @@
 package final_project;
 
-import static final_project.Battleship_board.print;
-import static final_project.Battleship_board.shipArray;
+import static final_project.Battleship_board.*;
 import static final_project.Status.SHIP_CELL;
 
 public class Game {
     public static void main(String[] args) {
 
+        System.out.println("Игрок № 1 разместите ваш флот кораблей");
         Player player1 = new Player(shipArray());
+        printTwoBoards(player1.getBoard(), player1.getGuessBoard());
+
+        System.out.println("Игрок № 2 разместите ваш флот кораблей");
         Player player2 = new Player(shipArray());
+        printTwoBoards(player2.getBoard(), player2.getGuessBoard());
 
         if (selectPlayer() == 1) {
 
-            do {
+            while (true) {
+                print(player1.getBoard());
                 System.out.println("Ход первого игрока");
-                player1.cellShot(player2.getBoard());
+                System.out.println("Доска с вашим флотом отображается выше, чтобы при смене хода соперник не видел её." +
+                        "\nНиже отображается доска с вашими ходами ");
+                print(player1.getGuessBoard());
+                System.out.println("Введите координаты");
+                player1.cellShot(player2.getBoard(), player1.getGuessBoard());
                 if (!checkShipsOnBoard(player2.getBoard())) {
                     break;
                 }
 
+                print(player2.getBoard());
                 System.out.println("Ход второго игрока");
-                player2.cellShot(player1.getBoard());
+                System.out.println("Доска с вашим флотом отображается выше, чтобы при смене хода соперник не видел её." +
+                        "\nНиже отображается доска с вашими ходами ");
+                print(player2.getGuessBoard());
+                System.out.println("Введите координаты");
+                player2.cellShot(player1.getBoard(), player2.getGuessBoard());
                 if (!checkShipsOnBoard(player1.getBoard())) {
                     break;
                 }
-            } while (true);
+            }
+
         } else {
-            do {
+
+            while (true) {
+                print(player2.getBoard());
                 System.out.println("Ход второго игрока");
-                player2.cellShot(player1.getBoard());
+                System.out.println("Доска с вашим флотом отображается выше, чтобы при смене хода соперник не видел её." +
+                        "\nНиже отображается доска с вашими ходами ");
+                print(player2.getGuessBoard());
+                System.out.println("Введите координаты");
+                player2.cellShot(player1.getBoard(), player2.getGuessBoard());
                 if (!checkShipsOnBoard(player1.getBoard())) {
                     break;
                 }
 
+                print(player1.getBoard());
                 System.out.println("Ход первого игрока");
-                player1.cellShot(player2.getBoard());
+                System.out.println("Доска с вашим флотом отображается выше, чтобы при смене хода соперник не видел её." +
+                        "\nНиже отображается доска с вашими ходами ");
+                print(player1.getGuessBoard());
+                System.out.println("Введите координаты");
+                player1.cellShot(player2.getBoard(), player1.getGuessBoard());
                 if (!checkShipsOnBoard(player2.getBoard())) {
                     break;
                 }
-
-
-            } while (true);
+            }
         }
 
         winnerIs(player1, player2);
 
-        print(player1.getBoard());
-        print(player2.getBoard());
+        System.out.println("Доска первого игрока");
+        printTwoBoards(player1.getBoard(), player1.getGuessBoard());
+        System.out.println("Доска второго игрока");
+        printTwoBoards(player2.getBoard(), player2.getGuessBoard());
     }
 
 
